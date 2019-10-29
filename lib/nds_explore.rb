@@ -10,5 +10,7 @@ end
 
 def print_first_directors_movie_titles
   hoh = directors_database
-  hoh[]
+  row_index = 0 
+  while row_index < hoh.length do 
+  end
 end
