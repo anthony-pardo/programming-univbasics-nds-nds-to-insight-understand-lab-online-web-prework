@@ -12,7 +12,7 @@ def print_first_directors_movie_titles
   hoh = directors_database
   row_index = 0 
   while row_index < hoh.length do 
-    puts "#{hoh[0][:movies][0]}\n"
+    puts "#{hoh[0][:movies][0][:title]}\n"
     row_index += 1 
   end
 end
