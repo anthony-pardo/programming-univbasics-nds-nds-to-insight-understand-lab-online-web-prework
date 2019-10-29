@@ -9,11 +9,10 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  hoh = directors_database
+  aohoaoh = directors_database # array of hashes of array of hashes
   row_index = 0 
   while row_index < hoh[0][:movies].length do 
-    #puts "#{hoh[0][:movies][row_index][:title]}\n"
+    puts "#{aohoaoh[0][:movies][row_index][:title]}\n"
     row_index += 1 
   end
-  pp hoh
 end
